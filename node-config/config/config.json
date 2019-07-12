@@ -1,0 +1,24 @@
+{
+    "dev": {
+        "config_id": "development",
+        "app_name": "My server app name",
+        "app_desc": "Some description",
+        "node_port": 3000,
+        "json_indentation": 4,
+        "database": "ssp.dev"
+    },
+    "test": {
+        "config_id": "test",
+        "database": "ssp.test"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "database": "ssp.staging"
+    },
+    "prod": {
+        "config_id": "prod",
+        "node_port": 80,
+        "database": "prod.ssp"
+    }
+}
